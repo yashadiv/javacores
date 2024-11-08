@@ -1,5 +1,7 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import JavaCode.JavaCollection.Task1.Filter;
 import JavaCode.JavaCollection.Task1.TaskFilter;
@@ -45,8 +47,10 @@ public class Main {
 
 
         //Task2
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1,1,2));
         System.out.println("Task 2:");
         CountElements countElements = new CountElements();
         System.out.println(countElements.counters(list));
+        System.out.println(countElements.counters(arrayList));
     }
 }
