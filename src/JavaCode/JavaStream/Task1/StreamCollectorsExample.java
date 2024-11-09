@@ -3,11 +3,6 @@ package JavaCode.JavaStream.Task1;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/*
-TODO
-*Выберите три самых дорогих продукта.
-TODO
-*Выведите результат: список трех самых дорогих продуктов и их общая стоимость.*/
 public class StreamCollectorsExample {
     public static void main(String[] args) {
         List<Order> orders = List.of(
