@@ -3,6 +3,7 @@ package JavaCode.JavaStream.Task2;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 
 public class ParallelStreamCollectMapAdvancedExample {
@@ -23,4 +24,5 @@ public class ParallelStreamCollectMapAdvancedExample {
                 ));
         averageGrades.forEach((key, value)-> System.out.println(key + ": "+ value));
     }
+
 }
